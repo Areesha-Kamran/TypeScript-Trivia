@@ -1,0 +1,23 @@
+{
+  "name": "typescript_trivia",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin":"index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Areesha Kamran",
+  "license": "ISC",
+  "description": "TypeScriptTrivia is a CLI-based quiz game that tests and improves your TypeScript knowledge. Enjoy challenging questions and enhance your skills while having fun. Perfect for developers of all levels!",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.2.23"
+  },
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.3",
+    "@types/inquirer": "^9.0.7"
+  }
+}
